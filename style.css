@@ -1,0 +1,92 @@
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 18px;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+
+h1, h2, h3, p {
+	font-weight: 400;
+	line-height: 1em;
+}
+
+nav {
+	height: 50px;
+	background: rgb(0,28,36);
+	padding: 10px;
+	align-items: center;
+	border-bottom: 1px solid white;
+}
+
+nav img{
+	margin-top: -15px;
+	height: 80px;
+}
+
+nav button {
+	float: right;
+	border: none;
+	padding: 10px;
+	background: transparent;
+	cursor: pointer;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: white;
+}
+
+.banner {
+	margin: auto;
+	align-items: center;
+	height: 400px;
+	background: rgb(0,28,36);
+	background: linear-gradient(180deg, rgba(0,28,36,1) 0%, rgba(9,92,121,1) 49%, rgba(0,212,255,1) 100%);
+	padding: 10px;
+	color: white;
+}
+
+.banner h1 {
+	padding-top: 100px;
+}
+
+.banner h3 {
+	font-size: 0.8em;
+	padding-bottom: 100px;
+}
+
+.main h3 {
+	text-align: center;
+	padding: 40px 0 20px 0;
+}
+
+.top-sec {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pot-images {
+	width: 30%;
+	text-align: center;
+}
+
+.pot-images img {
+	width: 90%;
+
+}
+
+.low-sec img, p {
+	width: 50%;
+}
+
+.chef, .man {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.angry {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+}
