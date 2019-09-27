@@ -42,12 +42,12 @@ nav button {
 .banner {
 	margin: auto;
 	align-items: center;
-	height: 400px;
+	height: 25%;
 	background: rgb(0,28,36);
 	background: linear-gradient(180deg, rgba(0,28,36,1) 0%, rgba(9,92,121,1) 49%, rgba(0,212,255,1) 100%);
 	padding: 10px;
 	color: white;
-		box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
 }
 
 .banner h1 {
@@ -96,7 +96,7 @@ nav button {
 	align-items: center;
 	width: 80%;
 	align-items: center;
-		margin: auto;
+	margin: auto;
 }
 
 .footer {
@@ -108,20 +108,44 @@ nav button {
 
 @media only screen and (max-width: 800px) {
 	.top-sec {
-	flex-wrap: wrap;
-	flex-direction: column;
 	justify-content: center;
 	padding: 0 15%;
 	}
+	
 	.top-sec, .pot-images {
-		width: auto
+		width: auto;
 	}
 
 	.chef, .angry, .man {
-		display: block;
-		width: auto
-	}
-	.low-sec p, img {
+		display: flex;
+		flex-wrap: wrap;
 		width: auto;
-		padding: 0 20px;
 	}
+
+	.angry {
+		flex-wrap: wrap-reverse;
+	}
+	
+	.low-sec p, img {
+		width: 80%;
+		padding: 0 10%;
+	}
+
+	.pot-images img{
+		box-shadow: none;
+
+	}
+
+	nav img {
+		padding: 0;
+	}
+
+	h3 {
+		font-size: 1.6em;
+		text-align: center;
+	}
+
+	p {
+		font-size: 0.9em;
+	}
+}
