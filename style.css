@@ -105,3 +105,23 @@ nav button {
 	text-align: center;
 	padding: 10px 0;
 }
+
+@media only screen and (max-width: 800px) {
+	.top-sec {
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 15%;
+	}
+	.top-sec, .pot-images {
+		width: auto
+	}
+
+	.chef, .angry, .man {
+		display: block;
+		width: auto
+	}
+	.low-sec p, img {
+		width: auto;
+		padding: 0 20px;
+	}
